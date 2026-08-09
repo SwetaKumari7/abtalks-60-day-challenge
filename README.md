@@ -1,32 +1,98 @@
-# React + TypeScript + Vite
+# ABTalks — 60 Day Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A mobile-first redesign of ABTalks, a 60-day coding challenge platform for Indian college students.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ABTalks helps students build consistent coding habits by completing a coding task every day and sharing public proof of their work through GitHub and LinkedIn.
 
-## React Compiler
+This project redesign focuses on making the experience simple, motivating, and easy to use on mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the Oxlint configuration
+- 60-day coding challenge
+- Daily coding tasks
+- Current streak tracking
+- Challenge progress tracking
+- Achievement system
+- Today's mission
+- GitHub proof-of-work submission
+- LinkedIn proof-of-work submission
+- Live deployment URL submission
+- Streak rescue for missed days
+- Mobile-first responsive design
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Screens
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### 1. Landing Page
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Introduces ABTalks and motivates students to start the 60-day challenge.
+
+### 2. Student Dashboard
+
+Shows:
+
+- Current streak
+- Challenge progress
+- Today's task
+- Overall completion
+- Achievements
+- Challenge day tracker
+
+### 3. Challenge Day
+
+Allows students to:
+
+- Read the daily challenge
+- Understand the requirements
+- Submit GitHub repository
+- Submit GitHub commit
+- Submit LinkedIn post
+- Submit live deployment URL
+- Complete the challenge
+
+## Route Map
+
+/
+ /dashboard
+/day/12
+
+> Note: The routes above should be written exactly as:
+>
+> /
+> /dashboard
+> /day/12
+
+## Technology
+
+- React
+- TypeScript
+- Vite
+- CSS
+- Mocked data
+
+## Project Scope
+
+This hackathon prototype does not include:
+
+- Authentication
+- Persistent user accounts
+- Production database
+- Voice interaction
+- Mobile application
+- Long-term conversation history
+
+## Design Approach
+
+The interface was designed mobile-first for a 390px viewport, with desktop responsiveness as a secondary consideration.
+
+The design also considers real-world situations such as:
+
+- A student's first day with no streak
+- Missed challenge days
+- Challenge progress
+- Proof-of-work submission
+
+## Hackathon
+
+Built as a hackathon submission for the ABTalks 60-Day Coding Challenge redesign.
