@@ -6,7 +6,7 @@
 
 **Hackathon Topic:** Topic 1 — Redesign ABTalks
 
-**Repository:** SwetaKumari7/abtalks-60-day-challenge
+**Repository:** https://github.com/SwetaKumari7/abtalks-60-day-challenge
 
 **Technology:** React + TypeScript + Vite
 
