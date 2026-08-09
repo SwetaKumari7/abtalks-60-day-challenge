@@ -50,6 +50,7 @@ It includes:
 -Mocked data
 
 ### Project structure
+```text
 abtalks-60-day-challenge/
 │
 ├── public/
@@ -64,7 +65,7 @@ abtalks-60-day-challenge/
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-
+```
 
 ### Challenge Day
 
