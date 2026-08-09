@@ -1,98 +1,148 @@
-# ABTalks — 60 Day Coding Challenge
+# ABTalks — 60-Day Coding Challenge
 
-A mobile-first redesign of ABTalks, a 60-day coding challenge platform for Indian college students.
+A mobile-first redesign of **ABTalks**, a 60-day coding challenge platform designed for Indian college students.
 
-## About the Project
+## 🎯 Project Overview
 
-ABTalks helps students build consistent coding habits by completing a coding task every day and sharing public proof of their work through GitHub and LinkedIn.
+ABTalks helps students develop consistent coding habits by challenging them to build something every day for 60 days.
 
-This project redesign focuses on making the experience simple, motivating, and easy to use on mobile devices.
+Each day, students are encouraged to:
 
-## Key Features
+- Complete a coding task
+- Build a project or feature
+- Submit a GitHub commit as proof of work
+- Share their progress through a LinkedIn post
+- Maintain a public learning streak
 
-- 60-day coding challenge
-- Daily coding tasks
-- Current streak tracking
-- Challenge progress tracking
-- Achievement system
-- Today's mission
-- GitHub proof-of-work submission
-- LinkedIn proof-of-work submission
-- Live deployment URL submission
-- Streak rescue for missed days
-- Mobile-first responsive design
+The goal of this redesign is to make the experience more motivating, clear, and easy to use, especially for students using the platform on mobile devices late at night after college.
 
-## Screens
+## ✨ Key Features
 
-### 1. Landing Page
+### Landing Page
 
-Introduces ABTalks and motivates students to start the 60-day challenge.
+The landing page introduces the ABTalks challenge to a new student and communicates:
 
-### 2. Student Dashboard
+- What ABTalks is
+- Why the 60-day challenge matters
+- The benefits of consistent building
+- Public proof of work
+- A clear call-to-action to start the challenge
 
-Shows:
+### Student Dashboard
 
-- Current streak
-- Challenge progress
-- Today's task
-- Overall completion
-- Achievements
-- Challenge day tracker
+The dashboard gives students a quick overview of their challenge.
 
-### 3. Challenge Day
+It includes:
 
-Allows students to:
+- 🔥 Current streak
+- 📊 Challenge progress
+- 🎯 Today's task
+- 🏆 Achievements
+- 📅 60-day challenge tracker
+- ⚡ Streak rescue
+- Overall completion percentage
 
-- Read the daily challenge
-- Understand the requirements
-- Submit GitHub repository
-- Submit GitHub commit
-- Submit LinkedIn post
-- Submit live deployment URL
+### Technology Stack
+-React
+-TypeScript
+-Vite
+-CSS
+-Mocked data
+
+### Project structure
+abtalks-60-day-challenge/
+│
+├── public/
+│
+├── src/
+│   ├── App.tsx
+│   ├── App.css
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+
+
+### Challenge Day
+
+The Challenge Day screen provides the complete experience for an individual challenge.
+
+Students can:
+
+- Read the day's task
+- Understand what needs to be built
+- View requirements
+- Submit their GitHub repository
+- Submit their GitHub commit
+- Submit their LinkedIn post
+- Submit their live deployment URL
 - Complete the challenge
 
-## Route Map
+## 💡 Thoughtful UX Improvements
 
+The redesign introduces several student-focused improvements.
+
+### Streak Rescue
+
+Missing a day can be discouraging.
+
+The dashboard provides a **Streak Rescue** concept to help students recover from a missed challenge and continue their learning journey instead of abandoning the entire 60-day challenge.
+
+### Progress Visibility
+
+Students can immediately see:
+
+- Current day
+- Days completed
+- Remaining days
+- Completion percentage
+- Current streak
+
+This makes progress tangible and encourages students to continue.
+
+### Proof-of-Work Focus
+
+The Challenge Day screen treats GitHub and LinkedIn proof as part of the workflow rather than an afterthought.
+
+Students can submit:
+
+1. Repository
+2. Commit
+3. LinkedIn post
+4. Live deployment
+
+This reinforces the core ABTalks idea of **building in public**.
+
+## 📱 Mobile-First Design
+
+The interface is designed primarily for a **390px mobile viewport**, reflecting the hackathon requirement and the expected usage pattern of college students.
+
+Desktop layouts are treated as a secondary responsive experience.
+
+## 🧩 Real-World Edge Cases
+
+The prototype considers the following situations:
+
+### First Day
+
+A student starting the challenge with no existing streak receives a clear starting experience rather than seeing an empty dashboard.
+
+### Missed Day
+
+The interface provides a recovery-oriented experience instead of making the student feel that the challenge is permanently lost.
+
+### Empty Profile
+
+The design uses mocked/default information so that the interface remains useful even when profile information is incomplete.
+
+## 🗺️ Route Map
+
+The application contains the following required routes:
+
+```text
 /
- /dashboard
+/dashboard
 /day/12
-
-> Note: The routes above should be written exactly as:
->
-> /
-> /dashboard
-> /day/12
-
-## Technology
-
-- React
-- TypeScript
-- Vite
-- CSS
-- Mocked data
-
-## Project Scope
-
-This hackathon prototype does not include:
-
-- Authentication
-- Persistent user accounts
-- Production database
-- Voice interaction
-- Mobile application
-- Long-term conversation history
-
-## Design Approach
-
-The interface was designed mobile-first for a 390px viewport, with desktop responsiveness as a secondary consideration.
-
-The design also considers real-world situations such as:
-
-- A student's first day with no streak
-- Missed challenge days
-- Challenge progress
-- Proof-of-work submission
-
-## Hackathon
-
-Built as a hackathon submission for the ABTalks 60-Day Coding Challenge redesign.
